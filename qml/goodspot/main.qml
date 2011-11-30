@@ -6,12 +6,16 @@ PageStackWindow {
 
     initialPage: mainPage
 
+
+
     ScannerPage {
         id: scannerPage
+        orientationLock: PageOrientation.LockPortrait
     }
     MainPage {
         id: mainPage
         btAddress: "00:80:e1:fb:db:97"
+        orientationLock: PageOrientation.LockPortrait
     }
 
 

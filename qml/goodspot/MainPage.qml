@@ -7,7 +7,7 @@ import com.nokia.meego 1.0
 Page {
     //This shouldn't be hardcoded.
     property string btAddress: "00:80:e1:fb:db:97"  //spot
-    //property string btAddress: "2c:d2:e7:0c:0e:93" //n900
+
     property bool connecting: false
     property Page scanner
 
