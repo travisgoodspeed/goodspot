@@ -1,6 +1,8 @@
 The Debian Package goodspot
 ----------------------------
 
-Comments regarding the Package
+This is a Meego Harmattan package for using the
+Spot Connect over bluetooth.
+https://github.com/travisgoodspeed/goodspot
 
- -- unknown <travis@unknown>  Wed, 23 Nov 2011 16:35:10 +0100
+ -- Travis Goodspeed <travis@radiantmachines.com>  Wed, 23 Nov 2011 16:35:10 +0100
