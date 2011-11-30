@@ -1,5 +1,6 @@
 import QtQuick 1.1
 import com.nokia.meego 1.0
+import "database.js" as Storage
 
 PageStackWindow {
     id: appWindow
@@ -16,6 +17,19 @@ PageStackWindow {
         id: mainPage
         btAddress: "00:80:e1:fb:db:97"
         orientationLock: PageOrientation.LockPortrait
+    }
+
+    Component.onCompleted: {
+        // Initialize the database
+        Storage.initialize();
+        // Sets a value in the database
+        //Storage.setSetting("mySetting","myValue");
+        // Sets the textDisplay element's text to the value we just set
+        mainPage.btAddress = Storage.getSetting("btAddress");
+    }
+
+    function saveAddress(){
+        Storage.setSetting("btAddress", mainPage.btAddress);
     }
 
 

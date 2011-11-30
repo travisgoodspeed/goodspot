@@ -51,6 +51,7 @@ Page {
         model: btModel
         onAccepted: {
             mainPage.btAddress=singleSelectionDialog.model.get(singleSelectionDialog.selectedIndex).deviceAddress;
+            saveAddress();
             pageStack.pop(scannerPage);
         }
 

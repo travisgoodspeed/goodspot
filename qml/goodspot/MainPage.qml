@@ -14,7 +14,6 @@ Page {
 
     tools: commonTools
 
-
     Label {
         id: title
 
@@ -39,8 +38,6 @@ Page {
             scannerPage.startScan();
         }
     }
-
-
 
     Label {
         id: uid
@@ -117,21 +114,15 @@ Page {
         onCheckedChanged: {
             console.log("switch: " + checked)
             if (blueSwitch.checked == false) {
-                //blueSocket.connected = false //connect to bluetooth
                 console.log("Disconnecting by switch.");
                 SpotConnect.close();
             } else {
-                //blueSocket.connected = true //connect to bluetooth
                 console.log("Connecting to "+btAddress);
                 SpotConnect.open(btAddress);
                 connecting=true;
             }
         }
     }
-
-    function updateView() {
-        uid.text="UID: "+SpotConnect.serial();
-    }  // slot
 
     //TODO replace this with proper events.
     Timer {
