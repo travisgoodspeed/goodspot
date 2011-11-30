@@ -24,7 +24,8 @@ CONFIG   += mobility
 MOBILITY += connectivity systeminfo
 
 # Speed up launching on MeeGo/Harmattan when using applauncherd daemon
-CONFIG += qdeclarative-boostable
+# This sometimes breaks things, and I'm not convinced that it's useful here.
+# CONFIG += qdeclarative-boostable
 
 # Add dependency to Symbian components
 # CONFIG += qt-components
