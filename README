@@ -1,2 +1,13 @@
 goodspot, a SPOT Connect client for the Nokia N9
 by Travis Goodspeed
+
+This is presently just a proof of concept, hardwired to my
+SPOT Connect's MAC address.
+
+If you are trying to learn the SPOT Connect's protocol, try my
+py-bluez client [1].  The original SPOT was reverse engineered by
+Alexei Karpenko in [2], which is a damned good article.
+
+
+[1] https://github.com/travisgoodspeed/pyspot
+[2] http://natrium42.com/projects/spot/
