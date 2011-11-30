@@ -9,6 +9,8 @@ Page {
     property string btAddress: "00:80:e1:fb:db:97"  //spot
     //property string btAddress: "2c:d2:e7:0c:0e:93" //n900
     property bool connecting: false
+    property Page scanner
+
 
     tools: commonTools
 
@@ -33,6 +35,9 @@ Page {
         anchors.topMargin: 64
 
         text: btAddress
+        onClicked:{
+            scannerPage.startScan();
+        }
     }
 
 

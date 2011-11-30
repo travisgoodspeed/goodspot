@@ -6,9 +6,15 @@ PageStackWindow {
 
     initialPage: mainPage
 
+    ScannerPage {
+        id: scannerPage
+    }
     MainPage {
         id: mainPage
+        btAddress: "00:80:e1:fb:db:97"
     }
+
+
 
     ToolBarLayout {
         id: commonTools
@@ -24,7 +30,10 @@ PageStackWindow {
         id: myMenu
         visualParent: pageStack
         MenuLayout {
-            MenuItem { text: qsTr("Sample menu item") }
+            MenuItem {
+                text: qsTr("Bluetooth Discovery")
+                onClicked: scannerPage.startScan();
+            }
         }
     }
 }
