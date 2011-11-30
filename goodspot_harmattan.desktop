@@ -4,7 +4,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Name=goodspot
-Exec=/usr/bin/invoker --type=d -s /opt/goodspot/bin/goodspot
+Exec=/opt/goodspot/bin/goodspot
 Icon=/usr/share/icons/hicolor/80x80/apps/goodspot80.png
 X-Window-Icon=
 X-HildonDesk-ShowInToolbar=true
