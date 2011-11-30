@@ -1,17 +1,15 @@
-This package was debianized by unknown <travis@unknown> on
+This package was debianized by Travis Goodspeed <travis@radiantmachines.com> on
 Wed, 23 Nov 2011 16:35:10 +0100.
 
 It was downloaded from <url://example.com>
 
 Upstream Author(s):
 
-    <put author's name and email here>
-    <likewise for another author>
+    Travis Goodspeed <travis@radiantmachines.com>
 
 Copyright:
 
-    <Copyright (C) YYYY Name OfAuthor>
-    <likewise for another author>
+    Copyright (C) 2011 Travis Goodspeed
 
 License:
 
@@ -32,9 +30,6 @@ License:
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'.
 
-The Debian packaging is (C) 2011, unknown <travis@unknown> and
-is licensed under the GPL, see above.
-
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
+The Debian packaging is (C) 2011, Travis Goodspeed <travis@radiantmachines.com> and
+is licensed under the GPL, see above.  If you'd like this under another license,
+that probably won't be a problem.  Just shoot me an email.
