@@ -1,8 +1,8 @@
 goodspot, a SPOT Connect client for the Nokia N9
 by Travis Goodspeed
 
-This is presently just a proof of concept, hardwired to my
-SPOT Connect's MAC address.
+This is presently just a proof of concept, hardwired to transmit only
+OK messages and to transmit them toward the first receiver group.
 
 If you are trying to learn the SPOT Connect's protocol, try my
 py-bluez client [1].  The original SPOT was reverse engineered by
